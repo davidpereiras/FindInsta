@@ -7,7 +7,7 @@ from rest_framework import routers
 from Findfaces.api import viewsets as FindfacesViewsets
 
 route = routers.DefaultRouter()
-route.register(r'findfaces', FindfacesViewsets.FindfacesViewset, basename ="Findfaces")
+route.register(r'findface', FindfacesViewsets.FindfacesViewset, basename ="Findfaces")
  
 
 urlpatterns = [
